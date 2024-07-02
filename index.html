@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <div id="container">
+        <div id="passgen">
+            <div id="main">
+                <input type="text" id="password">
+                <button id="button">Generate</button>
+            </div>
+
+            <div id="settings">
+                <span>
+                <input type="range" min="1" max="128" value="1" id="passlen">
+                <p id="value">1</p></span>
+                <span>
+                <input type="checkbox" name="AZ" id="AZ" value="A-Z">
+                <label for="AZ">A-Z</label></span>
+                <span>
+                <input type="checkbox" name="az" id="az" value="a-z">
+                <label for="az">a-z</label></span>
+                <span>
+                <input type="checkbox" name="numbers" id="numbers" value="0-9">
+                <label for="numbers">0-9</label></span>
+                <span>
+                <input type="checkbox" name="specialChar" id="specialChar" value="!#$@">
+                <label for="specialChar">!#$&</label></span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

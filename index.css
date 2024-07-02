@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+
+#passgen {
+    height: 200px;
+    width: 60%;
+    margin-top: 50px;
+    border-radius: 5px;
+    background-color: gray;
+}
+
+#password {
+    width: 80%;
+    height: 25px;
+    border-radius: 5px;
+}
+
+#main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    width: 100%;
+}
+
+#button {
+    width: 15%;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgb(76, 76, 255);
+}
+
+#settings {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50%;
+    width: 100%;
+}
